@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pineapple"
+        android:title="菠萝"
+        android:icon="@drawable/pineapple_pic"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/strawberry"
+        android:title="草莓"
+        android:icon="@drawable/strawberry_pic"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/watermelon"
+        android:title="西瓜"
+        android:icon="@drawable/watermelon_pic"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>
